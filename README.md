@@ -1,0 +1,2 @@
+# newjs
+First JS snippets
