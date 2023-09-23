@@ -18,3 +18,14 @@ const y = 1;
 
 console.log(x || y); // Output: 1 (the first operand is falsy, so the second operand is returned)
 console.log(y || x); // Output: 1 (the first operand is truthy, so it is returned)
+
+-Short-circuit evaluation can be useful in cases where you want to perform a certain action only if a certain condition is met, or you want to return a default value if a certain condition is not met.
+
+//For example:
+
+function displayName(name) {
+  return name || 'Unknown';
+}
+
+console.log(displayName('Jake'));   // Output: "Jake"
+console.log(displayName());         // Output: "Unknown"
