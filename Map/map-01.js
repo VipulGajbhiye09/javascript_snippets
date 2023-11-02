@@ -33,3 +33,10 @@ const newPeople = people.map((item) => {
   };
 });
 console.log(newPeople);
+
+
+//html manipulation
+const names = people.map( (person) => `<h2>${person.name}</h2>` );
+const result = document.querySelector('#result');
+
+result.innerHTML = names.join('');
