@@ -29,3 +29,9 @@ const youngPeople = people.filter((person) => {
   return person.age <= 25;
 });
 console.log(youngPeople);
+
+const developers = people.filter((person) => person.position === 'developer');
+console.log(developers);
+
+const managers = people.filter((item) => item.position === 'manager');
+console.log(seniorDevs);
