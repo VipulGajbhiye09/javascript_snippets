@@ -24,3 +24,6 @@ const people = [
 
 const ellie = people.find((person) => person.name === 'ellie');
 console.log(ellie);
+
+const randomPerson = people.find((person) => person.age < 30);
+console.log(randomPerson);
