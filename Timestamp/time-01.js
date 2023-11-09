@@ -8,3 +8,8 @@ console.log(new Date().valueOf());
 setTimeout(() => {
   console.log(Date.now());
 }, 1000);
+
+
+const now = Date.now();
+const futureDate = new Date(now + 1000 * 60);
+console.log(futureDate);
