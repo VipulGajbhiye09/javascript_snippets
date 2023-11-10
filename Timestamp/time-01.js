@@ -13,3 +13,13 @@ setTimeout(() => {
 const now = Date.now();
 const futureDate = new Date(now + 1000 * 60);
 console.log(futureDate);
+
+// difference between dates
+const firstDate = new Date(2023, 10, 13);
+const secondDate = new Date(2023, 8, 28);
+
+const firstValue = firstDate.getTime();
+const secondValue = secondDate.getTime();
+
+console.log(firstValue);
+console.log(secondValue);
