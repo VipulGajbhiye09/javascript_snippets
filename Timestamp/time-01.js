@@ -23,3 +23,6 @@ const secondValue = secondDate.getTime();
 
 console.log(firstValue);
 console.log(secondValue);
+
+const timeDifference = secondValue - firstValue;
+console.log(timeDifference);
