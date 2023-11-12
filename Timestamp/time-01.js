@@ -26,3 +26,6 @@ console.log(secondValue);
 
 const timeDifference = secondValue - firstValue;
 console.log(timeDifference);
+
+const minutes = timeDifference / (1000 * 60);
+console.log(minutes);
