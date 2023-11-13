@@ -29,3 +29,6 @@ console.log(timeDifference);
 
 const minutes = timeDifference / (1000 * 60);
 console.log(minutes);
+
+const hours = timeDifference / (1000 * 60 * 60);
+console.log(hours);
