@@ -1,11 +1,16 @@
-const guess = 2
+// Promises states
+// Pending, Rejected, FulFilled
+const guess = 2;
 
 const promise = new Promise((resolve, reject) => {
   const random_num = Math.floor(Math.random() * 3)
-  console.log(random_num)
+  console.log(random_num);
+  
   if (random_num === guess) {
-    resolve('you guessed correctly')
+    resolve('you guessed correctly');
   } else {
-    reject('wrong guess')
+    reject('wrong guess');
   }
-})
+});
+
+console.log(promise);
