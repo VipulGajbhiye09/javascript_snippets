@@ -14,3 +14,6 @@ const promise = new Promise((resolve, reject) => {
 });
 
 console.log(promise);
+
+promise.then( (data) => console.log(data) )
+  .catch( (err) => console.log(err) )
