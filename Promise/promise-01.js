@@ -1,5 +1,7 @@
 // Promises states
 // Pending, Rejected, FulFilled
+
+// async await consume/use promises
 const guess = 2;
 
 const promise = new Promise((resolve, reject) => {
