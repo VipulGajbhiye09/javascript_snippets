@@ -11,3 +11,7 @@ const people = [
     location: { street: '4 Brie street', timezone:'+9:30'} },
   },
 ];
+
+
+console.log(people.name)
+console.log(people.location)
