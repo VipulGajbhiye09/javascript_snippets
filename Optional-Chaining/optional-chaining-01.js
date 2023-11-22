@@ -16,3 +16,6 @@ const people = [
 console.log(people.name);
 console.log(people.location);
 console.log(people.location.street);
+
+//optional chaining
+console.log(people?.location?.timezone);
