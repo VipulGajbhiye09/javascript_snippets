@@ -20,3 +20,4 @@ console.log(people.location.street);
 //optional chaining
 console.log(people?.location);
 console.log(people?.location?.timezone);
+console.log(person?.location?.timezone?.offset);
