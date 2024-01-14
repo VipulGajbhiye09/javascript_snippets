@@ -1,3 +1,7 @@
+//The reduce() function's first 2 parameters are a function reducer() and an arbitrary initialValue.
+//JavaScript then calls the reducer() on each element of the array with the accumulator value as the first parameter.
+//The accumulator starts as initialValue, and then JavaScript uses the return value of each reduce() call as the new accumulator.
+
 //calculating the sum using loop
 function sum(arr) {
   let sum = 0;
